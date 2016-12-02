@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "plane.h"
+#include <windows.h>
 
 using namespace std;
 
@@ -18,6 +19,6 @@ int main(int argc, char** argv) {
 	cout << "YearOfCreating" << obj.getYearOfCreating() << endl;
 	cout << "Capacity" << obj.getCapacity() << endl;
 	
-	
+	system("pause");
 	return 0;
 }
