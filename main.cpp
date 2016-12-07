@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "plane.h"
+#include <windows.h>
 
 using namespace std;
 
@@ -17,7 +18,10 @@ int main(int argc, char** argv) {
 	cout << "PIB" << obj.getPIB() << endl;
 	cout << "YearOfCreating" << obj.getYearOfCreating() << endl;
 	cout << "Capacity" << obj.getCapacity() << endl;
-	
-	
+	cout << "friend function";
+	show(obj);
+	plane k(obj);
+	show(k);
+	system("pause");
 	return 0;
 }
