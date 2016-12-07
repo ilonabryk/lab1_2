@@ -18,10 +18,14 @@ int main(int argc, char** argv) {
 	cout << "PIB" << obj.getPIB() << endl;
 	cout << "YearOfCreating" << obj.getYearOfCreating() << endl;
 	cout << "Capacity" << obj.getCapacity() << endl;
+<<<<<<< HEAD
 	cout << "friend function";
 	show(obj);
 	plane k(obj);
 	show(k);
+=======
+	
+>>>>>>> origin/master
 	system("pause");
 	return 0;
 }
