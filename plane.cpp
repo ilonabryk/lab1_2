@@ -1,3 +1,4 @@
+//Lab1_2
 #include "plane.h"
 #include <string>
 #include <iostream>

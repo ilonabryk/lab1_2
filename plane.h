@@ -1,3 +1,4 @@
+//Lab1_2
 #ifndef PLANE_H
 #define PLANE_H
 #include <string>

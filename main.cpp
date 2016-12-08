@@ -10,22 +10,23 @@ int main(int argc, char** argv) {
 	string PIB;
 	int YearOfCreating;
 	float Capacity;
+	
 	cout << "input PIB" <<"\t" << "input YearOfCreating" << "\t" << "input Capacity" << endl;
 	cin >> PIB >> YearOfCreating >> Capacity;
+	
 	obj.setPIB(PIB);
 	obj.setYearOfCreating(YearOfCreating);
 	obj.setCapacity(Capacity);
+	
 	cout << "PIB" << obj.getPIB() << endl;
 	cout << "YearOfCreating" << obj.getYearOfCreating() << endl;
 	cout << "Capacity" << obj.getCapacity() << endl;
-<<<<<<< HEAD
+
 	cout << "friend function";
 	show(obj);
 	plane k(obj);
 	show(k);
-=======
-	
->>>>>>> origin/master
+
 	system("pause");
 	return 0;
 }
